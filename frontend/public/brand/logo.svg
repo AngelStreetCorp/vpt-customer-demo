@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" role="img" aria-label="Demo Customer">
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="#2f6fed"/>
+  <path d="M11 20h18M20 11v18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="46" y="26" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2937">Demo Customer</text>
+</svg>

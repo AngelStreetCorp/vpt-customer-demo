@@ -1,0 +1,10 @@
+# Copy to customer.local.conf (git-ignored). Values here override customer.conf.
+# Internal addresses stay out of git. Target syntax: role:alias[:target_dir[:service]]
+#
+# Simple: one VM per role
+TARGETS=server:10.0.0.3,frontend:10.0.0.5,host:host-1
+#
+# Two frontends on one VM (platform frontend at /opt/virtualpytest on :5073 and this overlay's
+# branded build side by side — own folder, own unit, port 5074; see DEPLOY_CUSTOMER.md
+# "Two frontends on one VM"):
+# TARGETS=frontend:10.0.0.5:/opt/virtualpytest-demo:vpt-frontend-demo
